@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Site</title>
+    <style>
+        #p-1 {color: rgb(5, 5, 5);font-size: large;}
+        h1 {font-family: Arial, Helvetica, sans-serif;}
+    </style>
+</head>
+<body style="background-color:#71d636" >
+  
+    <table style="width:100%;font-size: larger;">
+        <th>
+            <td><img src="logo.jpeg" alt="" height="50cm"></td>
+            <td><img src="join us.jpeg" alt="join us img" height="1%"></td>
+        </th>
+    </table>
+  
+    <h3>Select Bg-Color</h3>
+    <input type="color" value="#DA7A0B">
+
+   <h1>
+    Employment Application
+   </h1> 
+   <p id="p-1">Fill the form below accurately indicating your potentials and suitability to job applying for.</p>
+    <hr>
+   <!-- This Personal Detail -->
+   <h2 style="font-variant-caps: all-petite-caps;font-family: Arial, Helvetica, sans-serif;" >Personal detail</h2>
+  
+   <form action="" autocomplete="on">
+   <table style="width: 70%;font-size: larger;">
+        <tr>
+            <td>First Name</td>
+            <td>Last Name</td>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="Frist Name" autofocus></td>
+            <td><input type="text" placeholder="Last Name"></td>
+        </tr>
+        <tr>
+            <td>CNIC#</td>
+            <td>Mobile#:</td>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="CNIC with Dashes" maxlength="15" pattern="[0000-0000000-0]" required></td>
+            <td><input type="text" placeholder="0000-0000000" maxlength="12" pattern="[0-9]{4}-[0-9]{7}" ></td>
+        </tr>
+        <tr>
+            <td>E-Mail <input type="email"></td>
+            
+        </tr>
+
+        <td>Gender</td>
+        <td>Choose Country</td>
+    </tr>
+    <tr>
+        <td style="width: 30%;">
+           <label for="Male">Male</label>        <input id="Male" name="Gender" type="radio" value="Male"  >
+            <label for="Female">Female</label>   <input id="Female" name="Gender" type="radio" value="Female" >
+        </td>
+        <td>
+            <input list="Country", name="Country">    
+            <datalist id="Country">
+                <option value="Pakistan">Pakistan</option>
+                <option value="India">India</option>
+                <option value="Afganistan">Afganistan</option>
+                <option value="Iran">Iran</option>
+                <option value="Turkey">Turkey</option>
+            </datalist>
+                <datalist >
+        </td>
+    </tr>
+    <tr>
+        <td >Address</td>
+        <td>  <Label>DOB: </Label>   <input type="date" name="" id=""></td>
+    </tr>
+    <tr>
+        <td colspan="2"><textarea name="message" id="" cols="60" rows="5"></textarea></td>
+    </tr>
+    <tr>
+        <td><input type="submit" name="" id=""></td>
+        <td><input type="reset"></td>
+    </tr>
+    <TR>
+        <TD>PIC</TD></TD>
+        <TR><TD><INput type="file"></INput></INp></TD></TR>
+
+   </table>
+</form>
+<hr>
+
+<iframe src="https://www.youtube.com/embed/tumvKqIj8Jc" width="100%" control="no" frameborder="0">
+    
+</body>
+</html>

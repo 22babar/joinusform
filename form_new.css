@@ -1,0 +1,48 @@
+body{
+    background: #8331be url("back_img.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+.form {
+    width: 40%;
+    height: 600px;
+    position: relative;
+    top: 5vw;
+    background-color: rgba(255 ,200 , 255, 0.3);
+    border-radius: 15px;
+}
+ .register{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Arial, sans-serif';
+    letter-spacing: 2px;
+    padding-top: 5%;
+ }
+ input{
+    height: 2em;
+    border-radius: 10px;
+    text-align: center;
+    color: gray;
+    font-weight: 400;
+    font-size: medium  ;
+    justify-self: center;
+    justify-content:  space-evenly;
+ }
+
+ /* .fristrow input{
+    align-content: center;
+    align-items: center;
+    margin-left: 12px;
+ } */
+ .fristrow {
+    width: 1rem;
+    display: inline-block;
+    
+    
+ }
