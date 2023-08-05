@@ -24,15 +24,20 @@ body{
     letter-spacing: 2px;
     padding-top: 5%;
  }
+ .fristrow {
+   width: 100%;
+   display: inline-flex;
+   justify-content: space-evenly;
+}
  input{
-    height: 2em;
+    height: 2vw;
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
     color: gray;
     font-weight: 400;
-    font-size: medium  ;
-    justify-self: center;
-    justify-content:  space-evenly;
+    font-size: 1vw  ;
+    width: 30%;
+    
  }
 
  /* .fristrow input{
@@ -40,9 +45,3 @@ body{
     align-items: center;
     margin-left: 12px;
  } */
- .fristrow {
-    width: 1rem;
-    display: inline-block;
-    
-    
- }
